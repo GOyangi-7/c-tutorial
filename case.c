@@ -1,16 +1,16 @@
 #include <stdio.h>
 int main()
 {
-   int lenght_is  , breath_is ;
-   printf("lenght is  ");
-   scanf("lenght is %d",&lenght_is );
+   int l , b ;
+   printf("enter lenght = ");
+   scanf("%d", &l );
 
-   printf("width is  ");
-   scanf("width is %d",&breath_is );
+   printf("enter width = ");
+   scanf("%d",&b );
 
-   printf("perimater of rectangle = %d", 2*(lenght_is+breath_is) );
+   printf("perimeter of recatngle = %d ", 2*(l+b) );
    return 0;
    
-  
+
     
 }
